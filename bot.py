@@ -2,7 +2,7 @@ import telebot
 import time
 import random
  
-from telebot import TeleBot, types
+from telebot import types
  
 bot = telebot.TeleBot(token='5944466547:AAHPrdJQYRfAbZnVZOuAmvW27NEiQKK8Gyw', parse_mode='html')
 
