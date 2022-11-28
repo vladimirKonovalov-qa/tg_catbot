@@ -4,7 +4,7 @@ import random
  
 from telebot import types
  
-bot = telebot.TeleBot(token='5944466547:AAHPrdJQYRfAbZnVZOuAmvW27NEiQKK8Gyw', parse_mode='html')
+bot = telebot.TeleBot(token='', parse_mode='html')
 
 f = open('text.txt', 'r', encoding='UTF-8')
 text = f.read().split('\n')
